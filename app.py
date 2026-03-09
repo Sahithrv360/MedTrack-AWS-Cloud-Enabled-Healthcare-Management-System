@@ -209,7 +209,26 @@ def submit_diagnosis():
 
     appointment_id = request.args.get("appointment_id")
     return render_template("submit_diagnosis.html", appointment_id=appointment_id)
+# ----------------------------
+# View All Appointments
+# ----------------------------
+@app.route("/view_appointments")
+def view_appointments():
+    if "user" not in session:
+        return redirect("/login")
 
+    user_email = session["user"]
+    role = session["role"]
+
+    response = appointments_table.scan()
+    appointments = response.get("Items", [])
+
+    if role == "doctor":
+        appointments = [a for a in appointments if a.get("doctor_email") == user_email]
+    else:
+        appointments = [a for a in appointments if a.get("patient_email") == user_email]
+
+    return render_template("view_appointment.html", appointments=appointments)
 # ----------------------------
 # Search Appointment
 # ----------------------------
