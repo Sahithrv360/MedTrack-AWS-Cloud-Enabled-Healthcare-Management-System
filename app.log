@@ -42,3 +42,22 @@
 2026-03-09 19:17:19,772 - INFO - 127.0.0.1 - - [09/Mar/2026 19:17:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 2026-03-09 19:17:19,785 - INFO - 127.0.0.1 - - [09/Mar/2026 19:17:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=jQW63JR5zDhS1I79jlQn HTTP/1.1[0m" 304 -
 2026-03-09 19:17:19,812 - INFO - 127.0.0.1 - - [09/Mar/2026 19:17:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-03-11 21:17:40,405 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2026-03-11 21:17:40,406 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-11 21:17:40,431 - INFO -  * Restarting with watchdog (windowsapi)
+2026-03-11 21:17:44,951 - WARNING -  * Debugger is active!
+2026-03-11 21:17:44,956 - INFO -  * Debugger PIN: 983-154-773
+2026-03-11 21:17:53,507 - INFO - 127.0.0.1 - - [11/Mar/2026 21:17:53] "GET / HTTP/1.1" 200 -
+2026-03-11 21:17:53,675 - INFO - 127.0.0.1 - - [11/Mar/2026 21:17:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 21:17:53,761 - INFO - 127.0.0.1 - - [11/Mar/2026 21:17:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-11 21:17:57,216 - INFO - 127.0.0.1 - - [11/Mar/2026 21:17:57] "GET /register HTTP/1.1" 200 -
+2026-03-11 21:17:57,278 - INFO - 127.0.0.1 - - [11/Mar/2026 21:17:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 21:18:40,736 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:40] "GET / HTTP/1.1" 200 -
+2026-03-11 21:18:40,793 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-03-11 21:18:41,742 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:41] "GET / HTTP/1.1" 200 -
+2026-03-11 21:18:41,770 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 21:18:46,095 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-03-11 21:18:46,112 - INFO - 127.0.0.1 - - [11/Mar/2026 21:18:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
